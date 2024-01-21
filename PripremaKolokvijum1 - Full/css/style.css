@@ -1,0 +1,121 @@
+#header {
+    position: fixed;
+   top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #7F7FFF;
+    z-index: 1001;
+    overflow: hidden;
+    height: 55px;
+}
+.lilaText {
+    color: #7F7FFF;
+}
+#logo {
+    text-transform: uppercase;
+    font-size: large;
+    color: floralwhite;
+    font-size: 18px;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#logo>a {
+    color: floralwhite;
+}
+#logo>a:hover {
+    color: #7F7FFF;
+}
+.imageBackground {
+    margin-top: 0px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+  }
+  #infoText
+  {
+    position: absolute;
+    top: 155px;
+    left: 125px;
+    color: floralwhite;
+  }
+  #portfolio {
+    background: url(../images/sundown.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	-moz-background-size: cover;
+	height: 95vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+.floralText {
+    color: floralwhite;
+}
+#portofolioText
+{
+    padding: 305px 425px 105px 225px;
+    color: floralwhite;
+}
+.lilaBorder {
+    border: 1px solid #7F7FFF;;
+    border-radius: 7px;
+    margin: 7px;
+    padding: 10px;
+    height: 350px;
+    overflow:auto;
+}
+.floralText:hover
+{
+    color: floralwhite;
+    font-weight: bold;
+}
+.flex-container
+{
+    display: flex;
+}
+.flex-containerImage
+{
+    display: flex;
+    background: url(../images/sundown2.jpeg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	-moz-background-size: cover;
+	height: 75vh;
+}
+.flex-container>div {
+    margin: 10px;
+    padding: 20px;
+}
+.orangeText {
+    color: orangered;
+    font-weight: bold;
+}
+.orangeBorder {
+    border: 2px solid orangered;;
+    border-radius: 7px;
+    margin: 7px;
+    padding: 10px;
+    height: 350px;
+    overflow:auto;
+}
+#faq {
+    background-color: orangered;
+    color: floralwhite;
+}
+#faq>div{
+    margin: 20px;
+    padding: 30px;
+}
+.contactText {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: floralwhite;
+}
